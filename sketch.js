@@ -136,7 +136,7 @@ function draw() {
   text("metode tersebut pertama kali dikembangkan oleh Willard F. Libby bekerjasama dengan James Arnold dan Ernest C. di Institute Nuclear Studies, California University", 50, 190);
   text("(1940).", 50, 210)
   text("Yuliati,Helfi; Akhadi, Muklis. 2005.“Radionuklida Kosmogenik untuk Penanggalan”. Metode radiocarbon bermanfaat dalam menentukan usia suatu objek (misalnya fosil) ", 50, 235);
-  text("yang bergantung pada peluruhan radiocarbon menjadi nitrogen melalui proses peluruhan atau radioactive decay.laju peluruhan (R) atau dapat juga ditulis dengan dN/dt.", 50, 255);
+  text("yang bergantung pada peluruhan radiocarbon menjadi nitrogen melalui proses peluruhan atau radioactive decay. Laju peluruhan (R) atau dapat juga ditulis dengan dN/dt.", 50, 255);
   text("N(t) merupakan banyaknya atom pada waktu ke-t, sehingga laju peluruhan zat radioaktif dapat dituliskan :", 50, 275);
   text("R = dN/dt = -N/tao....(1) ;  tao = konstanta peluruhan", 50, 295);
   text("pengintegrasian menggunakan variabel terpisah diperoleh persamaan analitis berikut :", 50, 325);
@@ -188,7 +188,7 @@ function draw() {
   textSize(16);
   text("Perhitungan usia benda purba (fosil) dapat ditentukan dengan cara 'Carbon Dating'. Kemudian dapat diinterpretasikan hubungan antara persentase kuantitas carbon-14", 50, 1150);
   text("dengan waktu paro (5730 Tahun).", 50, 1170);
-  text("Berikut lampiran berupa link web untuk mendapatkan grafik yang diinginkan( dengan input-an : nilai awal, sisa carbon, konstanta peluruhan, serta rentang waktu grafik)", 50, 1200);
+  text("Berikut lampiran berupa link web untuk mendapatkan grafik yang diinginkan (dengan input-an : nilai awal, sisa carbon, konstanta peluruhan, serta rentang waktu grafik)", 50, 1200);
   text("Link Google Collaboratory :", 50, 1220);
   text("https://colab.research.google.com/drive/1PP5ObsrzLmjNZ2vBbXA5wsE1m6luFxuh?usp=sharing", 50, 1240);
   text("Link Github :", 50, 1260);
@@ -206,8 +206,8 @@ function draw() {
   text("melengkung kebawah (negatif eksponen).", 900,700);
   text("Bentuk grafik tersebut terjadi karena", 900, 720);
   text("pengaruh waktu paro (5730 Tahun).", 900, 740);
-  text("Artinya, setiap 5730 tahun makan sisa carbon", 900, 760);
-  text("berjumlah setengah dari nilai awal carbin", 900, 780);
+  text("Artinya, setiap 5730 tahun sisa carbon akan", 900, 760);
+  text("berjumlah setengah dari nilai awal carbon.", 900, 780);
   //Bibliography
   fill('orange');
   textSize (24);
