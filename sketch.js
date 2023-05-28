@@ -4,6 +4,7 @@ let lima;
 let delapan;
 let sebelas;
 let empatelas;
+let b;
 
 function preload(){
   satu = loadImage("satu.png");
@@ -17,7 +18,15 @@ function preload(){
 
 function setup() {
   createCanvas(1250, 1500);
-  
+  let a = createA('https://colab.research.google.com/drive/1PP5ObsrzLmjNZ2vBbXA5wsE1m6luFxuh?usp=sharing', 'https://colab.research.google.com/drive/1PP5ObsrzLmjNZ2vBbXA5wsE1m6luFxuh?usp=sharing');
+  a.position(50, 1220);
+  let b = createA('https://21-046-vsna.github.io/Grafik_Peluruhan_Carbon/', 'https://21-046-vsna.github.io/Grafik_Peluruhan_Carbon/');
+  b.position(50, 1270);
+  let c = createA('https://fmipa.um.ac.id/wp-content/uploads/Prosiding2015/Teori-Komputasi/Fisika2015_11-Teori-Widjianto.pdf', 'https://fmipa.um.ac.id/wp-content/uploads/Prosiding2015/Teori-Komputasi/Fisika2015_11-Teori-Widjianto.pdf');
+  c.position(900, 860);
+  let d = createA('https://p2k.stekom.ac.id/ensiklopedia/Penanggalan_radiokarbon', 'https://p2k.stekom.ac.id/ensiklopedia/');
+  d.position(900,940);
+                  
 }
 
 function draw() {
@@ -190,9 +199,12 @@ function draw() {
   text("dengan waktu paro (5730 Tahun).", 50, 1170);
   text("Berikut lampiran berupa link web untuk mendapatkan grafik yang diinginkan (dengan input-an : nilai awal, sisa carbon, konstanta peluruhan, serta rentang waktu grafik)", 50, 1200);
   text("Link Google Collaboratory :", 50, 1220);
-  text("https://colab.research.google.com/drive/1PP5ObsrzLmjNZ2vBbXA5wsE1m6luFxuh?usp=sharing", 50, 1240);
-  text("Link Github :", 50, 1260);
-  text("https://21-046-vsna.github.io/Grafik_Peluruhan_Carbon/", 50, 1280);
+  textSize (12);
+  text("*Klik/Salin link/Klik lalu drag pada tempat UR", 50, 1250);
+  textSize (16);
+  text("Link Github :", 50, 1270);
+  textSize (12);
+  text("*Klik/Salin link/Klik lalu drag pada tempat UR", 50, 1300);
   //Kesimpulan
   fill('orange');
   textSize (24);
@@ -213,12 +225,9 @@ function draw() {
   textSize (24);
   text ("Daftar Pustaka", 900, 850);
   fill('black');
-  textSize (16);
-  text ("  https://fmipa.um.ac.id/wp-content/uploads/ ", 900, 880);
-  text("Prosiding2015/Teori-Komputasi/Fisika2015_11 ", 900, 900);
-  text("-Teori-Widjianto.pdf ; ", 900, 920);
- text("  https://p2k.stekom.ac.id/ensiklopedia/",  900, 940);
-  text("Penanggalan_radiokarbon", 900, 960);
+  textSize (12);
+  text("*Klik/Salin link/Klik lalu drag pada tempat URL", 900, 940);
+  text("*Klik/Salin link/Klik lalu drag pada tempat URL", 900, 970);
   //Footer
   textSize (18);
   fill('white');
